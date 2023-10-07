@@ -16,6 +16,5 @@
 </div>
 
 👨‍💻About Me :
-- 🔭 I’m currently a 4th semester student at University of Lampung
-- 🌱 I’m currently learning React JS
-- 📫 How to reach me: ...
+- 🔭 I’m currently a 5th semester student at University of Lampung
+- 🌱 I’m currently learning Cloud Computings
