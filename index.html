@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Nama Anda</title>
+  <style>
+    /* --- RESET --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* --- HEADER --- */
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    /* --- HERO --- */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+    }
+    .hero img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #fff;
+    }
+    .hero h1 { font-size: 2.5rem; }
+    .hero p { margin-top: 10px; font-size: 1.1rem; }
+
+    /* --- SECTIONS --- */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      color: #444;
+    }
+
+    /* --- ABOUT --- */
+    .about p { text-align: center; max-width: 700px; margin: auto; }
+
+    /* --- PROJECTS --- */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .project:hover { transform: translateY(-5px); }
+    .project h3 { margin-bottom: 10px; color: #222; }
+
+    /* --- CONTACT --- */
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact input, .contact textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .contact button {
+      padding: 10px;
+      border: none;
+      background: #667eea;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .contact button:hover { background: #5563c1; }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #ccc;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h2>Nama Anda</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h1>Halo, saya Nama Anda</h1>
+    <p>Backend Developer | Cloud Enthusiast | Open Source Contributor</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Saya adalah seorang developer yang fokus pada backend development 
+      dengan pengalaman di Express.js, PostgreSQL, dan Cloud Engineering.
+      Suka membangun sistem yang scalable dan efisien.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Teman Jalan</h3>
+        <p>Aplikasi IoT monitoring perjalanan dengan Express.js & MQTT.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Website personal portfolio dengan HTML, CSS, dan JS sederhana.</p>
+      </div>
+      <div class="project">
+        <h3>Cloud Automation</h3>
+        <p>Deployment pipeline otomatis dengan GitHub Actions & AWS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Nama Anda. All rights reserved.</p>
+  </footer>
+</body>
+</html>
