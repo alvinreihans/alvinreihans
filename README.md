@@ -1,25 +1,46 @@
-# 💫 About Me:
-👋 Hi there!<br><br>I'm a fresh graduate Backend Developer with hands-on experience in building RESTful backend services using Express.js and Hapi.js, applying Clean Architecture principles and Test-Driven Development (TDD).<br><br>I have experience integrating and optimizing databases such as PostgreSQL and MySQL, developing CI/CD pipelines for cloud-based deployments, and implementing authentication, request validation, and API documentation.<br><br>Currently, I’m focused on finding a role that aligns with my skills and interests in backend and cloud-based systems.<br><br>I enjoy learning new technologies, solving real-world problems, and collaborating in team-based environments.<br>Feel free to explore my repositories or connect with me!
+# Hi, I'm Alvin Reihansyah Makarim 👋
 
+Full-stack developer based in Cibubur, Indonesia. I hold a B.Eng. in Informatics Engineering from the University of Lampung (GPA 3.88/4.00).
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alvinreihans) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:alvinreihans@gmail.com) 
+I build web applications and backend services with Node.js and TypeScript, with an interest in systems that are reliable, well-tested, and easy to audit. I like designing for failure: fallback chains, drafts instead of lost data, and permission checks that hold up outside the UI.
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+🌐 [Portfolio](https://alvinreihans.web.id/) · 💼 [LinkedIn](https://linkedin.com/in/alvinreihans) · ✉️ [alvinreihans@gmail.com](mailto:alvinreihans@gmail.com)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=alvinreihans&theme=react&hide_border=true&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=alvinreihans&theme=react&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=alvinreihans&theme=react&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+## 🚀 Featured projects
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+| Project | What it is | Stack |
+|---|---|---|
+| [**Money Tracker**](https://github.com/alvinreihans/money-tracker) | AI-assisted personal finance PWA. Type like a chat or snap a receipt; it reads it with OCR and an LLM, with a layered fallback so nothing is lost. Includes analytics, budgeting, savings goals, loans, and an "Ask AI" assistant. | Next.js 16, TypeScript, Supabase, Tesseract, Groq, Gemini, Vercel |
+| [**Video Belajar**](https://github.com/alvinreihans/videobelajar-react) | Online course platform monorepo: React SPA plus an Express REST API with JWT auth, email verification, image upload, and server-side filter/sort/search. | React, Vite, Redux Toolkit, Tailwind, Express, MySQL |
+| [**Teman Jalan**](https://github.com/alvinreihans/teman-jalan) | My thesis: a real-time backend for an IoT smart-stick monitoring app, processing sensor data over MQTT. | Express.js, MQTT, Redis, MySQL, Firebase, EC2, Nginx, PM2, GitHub Actions |
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=alvinreihans&limit=5&theme=react&combine_all_yearly_contributions=true)
+## 🛠️ Tech stack
 
----
-[![](https://visitcount.itsvg.in/api?id=alvinreihans&icon=0&color=1)](https://visitcount.itsvg.in)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404d59?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 📚 Certifications
+
+- Expert Back-End Developer with JavaScript, Dicoding (2025)
+- Building Cloud Architecture on AWS, Dicoding (2025)
+- Google Associate Cloud Engineer, Google Cloud (valid through Mar 2027)
